@@ -26,19 +26,21 @@ a {
 h1, h2, h3, h4 {
     font-family: var(--fuentePrincipal);
     line-height: 1.2;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 h1 {
-    font-size: 5.2;
+    font-size: 3.5rem;
 }
 h2 {
 	text-align: center;
-    font-size: 4.6rem;
-}
-h3 {
     font-size: 3.2rem;
 }
-h4 {
+h3 {
     font-size: 2.8rem;
+}
+h4 {
+    font-size: 2.4rem;
 }
 img {
     max-width: 100%;
@@ -111,6 +113,8 @@ img {
 	transition: all 3.5s ease;
 }
 .primer-titulo{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	background: rgb(121, 120, 120);
 	text-align: center;
 	color: white;
@@ -128,8 +132,19 @@ img {
 	justify-content: center;
 	z-index: 3;
 }
+.encabezado{
+	margin-bottom: 3rem;
+}
+.encabezado--dos{
+	font-size: 3rem;
+}
+
 .comboBox{
-	font-size: 25px;
+	font-size: 1.8rem;
+}
+.titulo-bancos{
+	color: black;
+	text-shadow: none;
 }
 .barra-divisora{
 	border-bottom: solid 80px rgba(80, 192, 28, 0.63);
@@ -142,7 +157,7 @@ img {
 	border-bottom: solid 3px rgb(119, 185, 22); 
 }
 .carousel-caption{
-	text-shadow: black 0.1em 0.1em 0.2em
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 .slider{
 	width: 100%;
@@ -164,6 +179,9 @@ img {
 	margin: auto;
 }
 
+.servicio img {
+	max-width: 85%;
+}
 .iconos{
 	height: 15rem;
 	width: 15rem;
@@ -273,13 +291,13 @@ img {
 		height: 600px;
 	}*/
 	.comboBox{
-		font-size: 20px;
+		font-size: 1.5rem;
 	}
 	
 }
 @media (max-width: 767px){
 	.servicio img {
-		max-width: 60%;
+		max-width: 55%;
 	}
 	.bancos{
 		margin-top: 3rem;
@@ -289,14 +307,17 @@ img {
 	}
 }
 @media (max-width: 539px){
-	h2{
-		font-size: 4rem;
+	h1{
+		font-size: 3.2rem;
 	}
-	h2 .encabezado{
+	h2{
+		font-size: 2.8rem;
+	}
+	h1 .encabezado{
 		font-size: 1.8rem;
 	}
 	.comboBox{
-		font-size: 15px;
+		font-size: 1.2rem;
 	}
 	/*.slider{
 		width: 100%;
@@ -310,8 +331,11 @@ img {
 	}
 }
 @media (max-width: 280px){
+	h1{
+		font-size: 3rem;
+	}
 	h2{
-		font-size: 3.4rem;
+		font-size: 2.6rem;
 	}
 	.primer-titulo{
 		text-align: center;

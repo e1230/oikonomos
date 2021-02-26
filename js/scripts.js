@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 
 $('.carousel').carousel({
-        interval: 2500
+        interval: 2000
 })
 
 function animar(){
